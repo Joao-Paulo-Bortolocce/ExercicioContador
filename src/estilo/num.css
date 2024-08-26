@@ -1,0 +1,34 @@
+*{
+    border: 0px;
+    padding: 0px;
+}
+
+div.botoes,div.placar{
+    margin-top: 20px;
+    width: 50vw;
+    height: 30vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p{
+    font-size: 3em;
+    text-align: center;
+}
+
+div.botoes{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: none;
+}
+
+button{
+    width: 45%;
+    font-size: 2em;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
+}
